@@ -1,4 +1,4 @@
-f = open('Python Village/rosalind_ini6.txt', 'r')
+f = open('Database/rosalind_ini6.txt', 'r')
 lines = f.readlines()
 words = ' '.join(lines).split() 
 
@@ -11,7 +11,7 @@ for word in words:
     else:
         word_frequency[word] = 1
 
-outfile = open('Python Village/rosalind_out_ini6.txt', 'w')
+outfile = open('Database/rosalind_out_ini6.txt', 'w')
 
 for word in word_frequency:
     line = ' '.join([word, str(word_frequency[word])])
