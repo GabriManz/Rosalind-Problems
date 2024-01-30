@@ -8,5 +8,5 @@ for i in range(len(dna)):
     if dna[i] == 'T':
         dna[i] = 'U'
 
-with open('Database/rosalin_rna_outfile.txt', 'w') as outfile:
+with open('Database/rosalind_rna_outfile.txt', 'w') as outfile:
     outfile.write(''.join(dna))
