@@ -8,5 +8,6 @@ parent, child = 1, 1
 
 for i in range(month - 1):
     child, parent = parent, parent + (child * offsprings)
+    #print(child, parent)
 
-print(f'month = {month}, offsprings = {offsprings}, child = {child}')
+print(f'months = {month}, offsprings = {offsprings}, child = {child}')
