@@ -12,3 +12,6 @@ for i in range(len(dna) - len(motif) + 1):  # Ajuste en el rango
 
 with open('Database/rosalind_subs_outfile.txt', 'w') as outfile:
     outfile.write(' '.join(index))
+
+
+#NOT FINISHED
